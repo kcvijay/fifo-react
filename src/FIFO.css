@@ -1,0 +1,31 @@
+.section-fifo {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  width: 225px;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+}
+
+input {
+  height: 35px;
+  width: 300px;
+  padding: 0 0.5rem;
+  border: 1px solid #cacaca;
+  font-family: inherit;
+}
+
+input:focus {
+  outline: 2px solid #000;
+}
+
+#create-fifo-array {
+  margin-left: 1rem;
+}
+
+#fifo-add {
+  width: 105px;
+}
