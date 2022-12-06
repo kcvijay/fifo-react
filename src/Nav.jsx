@@ -14,10 +14,7 @@ const Nav = () => {
 
       <ul>
         <li>
-          <NavLink to="/">FIFO</NavLink>
-        </li>
-        <li>
-          <NavLink to="/lifo">LIFO</NavLink>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
           <NavLink to="/about">About</NavLink>

@@ -1,4 +1,5 @@
 import React from "react";
+import Result from "./Result";
 import "./LIFO.css";
 
 const LIFO = () => {
@@ -27,6 +28,7 @@ const LIFO = () => {
           </button>
         </div>
       </form>
+      <Result />
     </section>
   );
 };

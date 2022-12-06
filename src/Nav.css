@@ -1,8 +1,7 @@
-.nav-header {
+nav {
   text-align: center;
   background-color: #000;
   color: #fff;
-  padding-bottom: 1rem;
 }
 
 h1 {
@@ -11,6 +10,7 @@ h1 {
 
 nav ul {
   text-align: center;
+  padding: 1rem 0;
 }
 
 nav ul li {
@@ -19,17 +19,18 @@ nav ul li {
 }
 
 nav ul li a {
+  color: #fff;
   text-decoration: none;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   transition: all 0.3s ease;
 }
 
 nav ul li a:hover {
-  background-color: #999;
   color: #fff;
 }
 
 nav ul li a.active {
-  background-color: rgb(91, 91, 91);
+  font-weight: 700;
   color: #fff;
+  border: 1px solid #fff;
 }

@@ -1,0 +1,22 @@
+.section-result {
+  background-color: #f1f1f1;
+  padding: 2.5rem;
+  line-height: 2;
+}
+
+.section-result div {
+  display: flex;
+}
+
+.section-result div label {
+  display: inline-block;
+  width: 235px;
+}
+
+.subheader {
+  font-weight: 700;
+}
+
+.action-wrapper {
+  display: flex;
+}
