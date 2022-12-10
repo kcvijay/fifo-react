@@ -6,9 +6,9 @@ const Nav = () => {
   return (
     <nav>
       <div className="nav-header">
-        <h1>FIFO & LIFO in JavaScript</h1>
+        <h1>STACK DATA STRUCTURE in JavaScript</h1>
         <p>
-          <code>First-In-First-Out and Last-In-First-Out</code>
+          <code>First in Last Out (FILO)</code>
         </p>
       </div>
 

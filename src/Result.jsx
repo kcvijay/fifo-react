@@ -1,16 +1,12 @@
 import React from "react";
 import "./Result.css";
 
-const Result = ({ originalArray, stackType, resultText, newArray }) => {
+const Result = ({ originalArray, resultText, newArray }) => {
   return (
     <section className="section-result">
       <div>
         <label className="subheader">Original Array</label>
         <p className="original-array">{originalArray}</p>
-      </div>
-      <div>
-        <label className="subheader">Stack Type</label>
-        <p className="stack-type">{stackType}</p>
       </div>
       <div>
         <label className="subheader">New Array</label>
@@ -19,7 +15,7 @@ const Result = ({ originalArray, stackType, resultText, newArray }) => {
 
       <div>
         <label className="subheader">What happened?</label>
-        <p className="new-array">{resultText}</p>
+        <p className="result-txt">{resultText}</p>
       </div>
     </section>
   );

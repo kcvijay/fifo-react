@@ -6,6 +6,7 @@
 
 .section-result div {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .section-result div label {
@@ -19,4 +20,9 @@
 
 .action-wrapper {
   display: flex;
+}
+
+.result-txt {
+  font-weight: 700;
+  color: green;
 }
