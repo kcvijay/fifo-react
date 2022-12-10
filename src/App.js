@@ -9,6 +9,7 @@ import "./App.css";
 const App = () => {
   const [values, setValues] = useState({
     input: "",
+    add: "",
   });
   const [newArray, setNewArray] = useState();
   const [resultText, setResultText] = useState("");
@@ -17,13 +18,22 @@ const App = () => {
     setValues({ ...values, [e.target.name]: e.target.value });
   };
 
+  const arrayItems = values.input.split(",");
+  const dequeue = () => {
+    arrayItems.shift();
+  };
+
+  const enqueue = (el) => {
+    arrayItems.push(el);
+  };
+
   const stackHandler = (e) => {
     e.preventDefault();
-    let inputArray = values.input.split(","); // Converting to an array.
-    inputArray.pop();
-    setNewArray(inputArray.join(", "));
+    dequeue();
+    enqueue(values.add);
+    setNewArray(arrayItems.join(", "));
     setResultText(
-      "The last entried element is taken out first hence, the fiirst entried element will be taken out last (First In Last Out)."
+      "The first entried element is taken out first hence, First - in - First - Out. At the same time, a new element is added at front."
     );
   };
 
@@ -44,8 +54,7 @@ const App = () => {
         </Routes>
         <Result
           originalArray={values.input}
-          stackType={values.stack}
-          actionVal={values.actionVal}
+          addedItem={values.add}
           newArray={newArray}
           resultText={resultText}
         />

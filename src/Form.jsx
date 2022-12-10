@@ -23,7 +23,12 @@ const Form = ({ changeHandler, stackHandler }) => {
 
         <div>
           <label htmlFor="stackPicker">Stack type</label>
-          <input type="text" value="FILO (First In Last Out)" readOnly />
+          <input type="text" value="FIFO (First In First Out)" readOnly />
+        </div>
+
+        <div>
+          <label htmlFor="add">Add an Element</label>
+          <input type="text" id="add" name="add" />
         </div>
         <div>
           <label></label>

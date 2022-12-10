@@ -6,9 +6,9 @@ const Nav = () => {
   return (
     <nav>
       <div className="nav-header">
-        <h1>STACK DATA STRUCTURE in JavaScript</h1>
+        <h1>QUEUE DATA STRUCTURE in JavaScript</h1>
         <p>
-          <code>First in Last Out (FILO)</code>
+          <code>First in First Out (FIFO)</code>
         </p>
       </div>
 
