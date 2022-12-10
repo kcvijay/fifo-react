@@ -12,7 +12,13 @@ const About = () => {
       <p>Website UI is done in React and CSS.</p>
       <p>
         Concurrent and updated source code is available at &nbsp;
-        <a href="/">GitHub</a>.
+        <a
+          href="https://github.com/kcvijay/filo-react.git"
+          target="_blank noreferer"
+        >
+          GitHub
+        </a>
+        .
       </p>
       <p>&mdash;&nbsp;Vijay</p>
     </section>
